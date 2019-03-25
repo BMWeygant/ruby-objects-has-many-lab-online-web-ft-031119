@@ -6,4 +6,10 @@ def initialize(name, artist=nil)
  #@artist = artist
 end
 
+def author_name
+if self.artist
+  self.artist.name
+end
+end
+
 end
