@@ -8,7 +8,7 @@ def initialize(title, author=nil)
 end
 
 def self.post
-
+@@all
 end
 
 end
