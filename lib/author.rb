@@ -12,6 +12,10 @@ def add_post(post)
   self.posts << post
 end
 
+def add_post_by_title(post)
+
+end
+
 def posts
   @posts
 end
