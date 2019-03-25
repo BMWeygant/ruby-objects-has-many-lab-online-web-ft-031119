@@ -10,7 +10,7 @@ end
 def add_post(title)
   #self.posts << post
   title.author = self
-  self.title << title
+  self.posts << title
 
 end
 
