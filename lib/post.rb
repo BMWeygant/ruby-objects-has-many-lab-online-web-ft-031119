@@ -5,7 +5,9 @@ def initialize(title, author=nil)
 @title = title
 end
 
+def new_pushes
 
+end
 
 
 
