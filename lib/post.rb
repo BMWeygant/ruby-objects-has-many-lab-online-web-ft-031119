@@ -7,7 +7,7 @@ def initialize(title, author=nil)
 @@all << self
 end
 
-def self.post
+def self.all
 @@all
 end
 
