@@ -2,7 +2,7 @@ class Post
 attr_accessor :title, :author
 @@all = []
 
-def initialize(title, author=nil)
+def initialize(title, author)
 @title = title
 @@all << self
 end
@@ -10,6 +10,8 @@ end
 def author_name
 if self.author
   self.author.name
+else
+  nil
 end
 end
 
