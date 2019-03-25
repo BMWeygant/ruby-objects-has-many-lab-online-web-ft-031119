@@ -10,8 +10,8 @@ end
 def add_post(post)
   #self.posts << post
   post.author = self
-  #self.posts << post
-  
+  self.posts << post
+
 end
 
 def posts
