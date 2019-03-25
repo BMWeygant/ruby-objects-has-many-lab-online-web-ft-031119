@@ -8,7 +8,7 @@ def initialize(name, artist=nil)
   @@all << self
 end
 
-def author_name
+def artist_name
 if self.artist
   self.artist.name
 end
