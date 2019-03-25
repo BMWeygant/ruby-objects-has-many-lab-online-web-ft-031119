@@ -9,7 +9,7 @@ end
 
 def add_post(post)
   self.posts << post
-post.author = self
+  post.author = self
 end
 
 def posts
